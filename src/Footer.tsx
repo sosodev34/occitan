@@ -1,4 +1,4 @@
-ï»¿import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -8,10 +8,10 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img src="/logo.png" alt="Coeur d'Occitanie logo" className="w-8 h-8 object-contain" />
-              <h3 className="text-white">CÅ“ur d'Occitanie</h3>
+              <h3 className="text-white">Cœur d'Occitanie</h3>
             </div>
             <p className="text-gray-400">
-              Promouvoir les produits locaux et crÃ©er du lien entre producteurs et consommateurs en Occitanie.
+              Promouvoir les produits locaux et créer du lien entre producteurs et consommateurs en Occitanie.
             </p>
           </div>
 
@@ -24,7 +24,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-red-500" />
-                <span className="text-gray-400">05 61 00 00 00</span>
+                <span className="text-gray-400">07.49.29.06.90</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-red-500" />
@@ -38,13 +38,13 @@ export function Footer() {
             <div className="text-gray-400 space-y-2">
               <p>Lundi - Vendredi: 9h - 18h</p>
               <p>Samedi: 9h - 13h</p>
-              <p>Dimanche: FermÃ©</p>
+              <p>Dimanche: Fermé</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 CÅ“ur d'Occitanie. Tous droits rÃ©servÃ©s.</p>
+          <p>&copy; 2025 Cœur d'Occitanie. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
